@@ -1,0 +1,41 @@
+.button-group {
+  width: 60vw;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0;
+  border-bottom: 1px solid black;
+}
+
+.button-group button {
+  font-size: 15px;
+  width: 90px;
+  padding: 10px 0;
+  border: none;
+  margin: 0 10px;
+  border-radius: 5px;
+  background-color: #278df1;
+  border: 2px solid #278df1;
+  color: white;
+}
+
+.button-group span {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.button-group-right {
+  display: flex;
+  align-items: center;
+}
+
+.button-group-right button {
+  margin-left: 1rem;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  border: none;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+}

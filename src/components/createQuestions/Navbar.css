@@ -1,0 +1,18 @@
+.create-question-navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid black;
+  height: 60px;
+  font-size: 20px;
+}
+
+.create-question-navbar > * {
+  display: inline-block;
+  width: 250px;
+  text-align: center;
+}
+
+.log-out {
+  cursor: pointer;
+}

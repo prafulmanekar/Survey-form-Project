@@ -1,0 +1,138 @@
+* {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+/* ======================== NavBar ======================== */
+.create-survey-navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid black;
+  height: 60px;
+  font-size: 20px;
+}
+
+.create-survey-navbar > * {
+  display: inline-block;
+  width: 250px;
+  text-align: center;
+}
+
+.log-out {
+  cursor: pointer;
+}
+
+/* ======================== Side Bar ======================== */
+.sidebar {
+  float: left;
+  width: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #278df1;
+}
+
+.sidebar > * {
+  margin: 15px 0;
+}
+
+/* ======================== Header ======================== */
+.createhead {
+  display: flex;
+  justify-content: space-between;
+  width: 60vw;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  border-bottom: 1px solid rgb(215, 215, 215);
+}
+.createhead h1 {
+  font-size: 30px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: 500;
+}
+.header-buttons {
+  width: 20vw;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.cancelbtn {
+  width: 100px;
+  height: 40px;
+  background-color: white;
+  border: 1px solid #278df1;
+  color: #278df1;
+  border-radius: 2px;
+  cursor: pointer;
+}
+.nextbtn {
+  width: 100px;
+  height: 40px;
+  background-color: #278df1;
+  border: none;
+  color: white;
+  border-radius: 2px;
+  cursor: pointer;
+}
+/* ======================== Main ======================== */
+.create-survey-main {
+  width: 60vw;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: center;
+}
+.main1 {
+  margin-top: 30px;
+  width: 45%;
+  border-right: 1px solid black;
+}
+
+#namein,
+#descin,
+#surveyselect {
+  height: 30px;
+  padding: 0;
+  width: 80%;
+}
+
+.main2 {
+  margin-top: 30px;
+  width: 45%;
+  margin-left: auto;
+}
+
+.datein,
+#critin {
+  height: 30px;
+  padding: 0;
+  width: 80%;
+}
+
+#uploadlabel {
+  display: inline-block;
+  text-align: center;
+  width: 80%;
+  height: 60px;
+  border: 1px solid black;
+  background-image: linear-gradient(
+    90deg,
+    rgb(211, 211, 211),
+    white,
+    rgb(211, 211, 211)
+  );
+}
+
+#upload {
+  display: none;
+}
+
+.upload-image {
+  display: inline-block;
+  width: 80%;
+  height: 60px;
+  border: 1px solid black;
+}

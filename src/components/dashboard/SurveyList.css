@@ -1,0 +1,89 @@
+/* ======================== NavBar ======================== */
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid black;
+  height: 60px;
+  font-size: 20px;
+}
+
+.nav-bar > * {
+  display: inline-block;
+  width: 250px;
+  text-align: center;
+}
+
+.log-out {
+  cursor: pointer;
+}
+
+/* ======================== Header ======================== */
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0 10px 0;
+}
+#survey-list-search-input {
+  padding: 0;
+  display: inline-block;
+  height: 35px;
+  border: none;
+  border-bottom: 1px solid black;
+}
+.survey-list-header-buttons {
+  font-size: 15px;
+  width: 90px;
+  padding: 10px 0;
+  border: none;
+  margin: 0 10px;
+  border-radius: 5px;
+}
+#survey-list-create {
+  background-color: #278df1;
+  border: 2px solid #278df1;
+  color: white;
+}
+#survey-list-sort {
+  background-color: rgb(255, 255, 255);
+  color: #278df1;
+  border: 2px solid #278df1;
+}
+#survey-list-search {
+  background-color: rgb(255, 255, 255);
+  color: #278df1;
+  border: 2px solid #278df1;
+}
+/* ======================== Info-bar ======================== */
+.info-surveyList {
+  width: 80vw;
+  margin: 5px auto;
+}
+
+.info-bar {
+  background-color: #278df1;
+  display: flex;
+  padding: 10px 0;
+  justify-content: space-evenly;
+  align-items: center;
+  font-weight: 700;
+  text-align: center;
+  font-size: 20px;
+  color: white;
+}
+
+.info-bar > * {
+  width: 15vw;
+}
+
+.icon img {
+  width: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.icon {
+  display: flex;
+  align-items: center;
+}
